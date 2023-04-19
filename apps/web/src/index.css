@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .base-grid {
+    @apply grid grid-cols-12 gap-x-4 md:gap-x-8 lg:gap-x-8;
+  }
+
+  .base-container {
+    @apply max-w-4xl px-2 mx-auto md:px-12;
+  }
+
+  html,
+  body {
+    @apply bg-slate-900;
+  }
+}
