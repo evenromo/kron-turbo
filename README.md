@@ -1,3 +1,17 @@
+# GUIDELINES
+
+Run the following command in root folder:
+
+```sh
+npm install
+```
+
+And then:
+
+```sh
+npm run dev
+```
+
 # Turborepo starter
 
 This is an official starter Turborepo.
